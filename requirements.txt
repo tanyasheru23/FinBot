@@ -1,0 +1,33 @@
+llama-index>=0.10
+langchain-community>=0.0.25
+langchain>=0.1.17
+chromadb>=0.4
+
+openai>=1.0
+
+# PDF and image extraction
+pymupdf>=1.22     # (PyMuPDF aka fitz, for PDF text/image extraction)
+pdfminer.six>=20221105  # (optional advanced PDF/text extraction)
+Pillow>=10.0      # (image processing for PIL)
+
+# Video transcripts
+youtube-transcript-api>=0.6.2
+yt-dlp>=2024.3
+openai-whisper>=20231117 # Whisper for speech-to-text
+
+# Embedding
+torch>=2.0
+open-clip-torch>=2.23
+sentence-transformers>=2.2.2
+huggingface_hub[hf_xet]
+
+
+# Utilities
+python-dotenv>=1.0
+tqdm>=4.66
+requests>=2.31
+
+# Optional: for development/UI
+streamlit>=1.33
+fastapi>=0.110
+notebook>=7.0
