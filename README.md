@@ -87,11 +87,3 @@ BabyFinBOT/
 - **ChromaDB** for scalable, persistent vector database and retrieval
 - **Automated filtering** to remove irrelevant images (logos, icons, faces, doodles)
 
-***
-
-## **Contributors**
-- **Tanya Sheru** (project owner, data engineer, AI workflow builder)
-
-***
-
-**Feel free to personalize this README as you build more features and upload to GitHub! Let me know if you want starter code for retrieval, or instructions to run/test those features.**
